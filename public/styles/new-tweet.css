@@ -1,0 +1,48 @@
+.new-tweet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.humming {
+    display: flex;
+    flex-direction: column;
+    border-bottom:2px solid black;
+    font-weight: 600;
+}
+
+.humming > textarea {
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.ButtonContainer  {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+.ButtonContainer > button {
+    font-family: "Bungee", sans-serif;
+    color:white;
+    background-color:blue ;
+    font-size: 1em;
+
+}
+
+.ButtonContainer > output {
+    font-family: "Bungee", sans-serif;
+    font-size: 1em;
+}
+
+.red {
+    color:red;
+}

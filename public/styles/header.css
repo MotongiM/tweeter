@@ -1,0 +1,14 @@
+body > header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: sienna;
+    background-image: url(http://www.transparenttextures.com/patterns/cutcube.png);
+}
+
+header > div > h2 {
+    color: darkslateblue;
+    margin-top: 0px;
+}

@@ -15,11 +15,96 @@ html {
  */
 
 body {
+  display: flex;
+  flex-direction: column;
   color: #545149;
   background-color: #f4f1ec;
-  font-size: 24px;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
-
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom: 5%;
+ }
+
+ article {
+   padding: 2.5%;
+   border: solid 0.2em;
+   margin-bottom:5%;
+ }
+
+
+ .userAvatar {
+   display: flex;
+   justify-content: flex-start;
+ }
+
+ .userHandle {
+   display: flex;
+   justify-content: flex-end;
+   color:magenta;
+   align-items: center;
+ }
+ 
+ .firstName {
+   margin-left: 0.5em;
+ }
+
+ .contentFooter {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size:small;
+ }
+
+.icons {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.icons i{
+  margin-right: 5px;
+}
+
+.icons .fas:hover {
+  color: #00b57f ;
+}
+
+.icons .fas {
+  color: #294cbe ;
+}
+
+ #error {
+  border: solid 0.20em red;
+  border-radius: 1em;
+  color: red;
+  margin-bottom: 1em;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* media queries */
+@media (min-width: 1024px) {
+  body {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body > header {
+    width: 33%;
+    margin:  220px 0px 0px 3rem;
+  }
+  .container {
+    width: 55%;
+    float: right;
+    margin: 200px 3rem 0px 0px;
+  }
+}
