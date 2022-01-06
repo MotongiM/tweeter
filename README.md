@@ -16,3 +16,8 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+!["front page."](https://github.com/MotongiM/tweeters/blob/master/public/images/front%20page.PNG)
+!["Hovering the tweet/flag"](https://github.com/MotongiM/tweeters/blob/master/public/images/Hovering%20the%20tweet-flag%20and%20tweeting.png)
+!["Not typing and sending"](https://github.com/MotongiM/tweeters/blob/master/public/images/Not%20typing%20anything.PNG)
+!["Typing over 140 characters"](https://github.com/MotongiM/tweeters/blob/master/public/images/typing%20too%20much.PNG)
